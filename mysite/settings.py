@@ -25,10 +25,6 @@ SECRET_KEY = 'x-_50%c#x-=pk7hm3@-f3%)kx7)=8a^sydiz+dxc=^p689aehw'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]',
-                 'pythonanywhere.com']
-
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -122,3 +118,4 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]', '.pythonanywhere.com']
